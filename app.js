@@ -67,5 +67,5 @@ app.delete('/todos/:id', async (req, res) => {
 const PORT = process.env.PORT || 4001;
 
 app.listen(`${PORT}`, () => {
-  console.log(`app listening on port ${PORT}`);
+  console.log(`app listening on port ${PORT}, change to localhost:${PORT}/todos`);
 });
